@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Gempabumi BMKG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Informasi Gempa Bumi</h1>
+        <h3>Sumber: <a href="https://data.bmkg.go.id/gempabumi/">Data BMKG</a></h3>
+        <nav>
+            <a href="#" class="tab active" data-target="gempabumi-terbaru">Gempabumi Terbaru</a>
+            <a href="#" class="tab" data-target="gempabumi-5lebih">Gempabumi M 5.0+</a>
+            <a href="#" class="tab" data-target="gempabumi-dirasakan">Gempabumi Dirasakan</a>
+        </nav>
+        
+        <div class="tab-contents">
+            <div id="gempabumi-terbaru" class="tab-content active">
+                <!-- Tab 1 -->
+                <p><strong>Tanggal:</strong> Loading...</p>
+                <p><strong>Jam:</strong> Loading...</p>
+                <p><strong>Koordinat:</strong> Loading...</p>
+                <p><strong>Lintang:</strong> Loading...</p>
+                <p><strong>Bujur:</strong> Loading...</p>
+                <p><strong>Magnitude:</strong> Loading...</p>
+                <p><strong>Kedalaman:</strong> Loading...</p>
+                <p><strong>Wilayah:</strong> Loading...</p>
+                <p><strong>Potensi:</strong> Loading...</p>
+                <p><strong>Dirasakan:</strong> Loading...</p>
+                <p><strong>Shakemap:</strong></p>
+                <img src="" alt="Shakemap" class="shakemap">
+            </div>
+    
+            <div id="gempabumi-5lebih" class="tab-content">
+                <!-- Tab 2 -->
+                <table id="tabel-gempabumi-5lebih">
+                    <thead>
+                        <tr>
+                            <th>Tanggal</th>
+                            <th>Jam</th>
+                            <th>Koordinat</th>
+                            <th>Lintang</th>
+                            <th>Bujur</th>
+                            <th>Magnitude</th>
+                            <th>Kedalaman</th>
+                            <th>Wilayah</th>
+                            <th>Potensi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data otomatis di sini -->
+                    </tbody>
+                </table>
+            </div>
+    
+            <div id="gempabumi-dirasakan" class="tab-content">
+                <!-- Tab 3 -->
+                <table id="tabel-gempabumi-dirasakan">
+                    <thead>
+                        <tr>
+                            <th>Tanggal</th>
+                            <th>Jam</th>
+                            <th>Koordinat</th>
+                            <th>Lintang</th>
+                            <th>Bujur</th>
+                            <th>Magnitude</th>
+                            <th>Kedalaman</th>
+                            <th>Wilayah</th>
+                            <th>Dirasakan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data otomatis di sini-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
