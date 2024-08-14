@@ -63,7 +63,7 @@ async function fetchGempabumiTerbaru() {
             <p><strong>Kedalaman:</strong> ${gempa.Kedalaman}</p>
             <p><strong>Wilayah:</strong> ${gempa.Wilayah}</p>
             <p><strong>Potensi:</strong> ${gempa.Potensi}</p>
-            <p><strong>Dirasakan:</strong> ${gempa.Dirasakan}</p>
+            <p><strong>MMI:</strong> ${gempa.Dirasakan}</p>
             <p><strong>Shakemap:</strong></p>
             <img src="https://data.bmkg.go.id/DataMKG/TEWS/${gempa.Shakemap}" alt="Shakemap" class="shakemap">
         `;
