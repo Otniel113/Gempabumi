@@ -113,7 +113,37 @@ nav {
     display: block;
     margin: 20px auto;
     max-width: 100%;
+    height: auto;
+    aspect-ratio: 1/1; /* Maintain square shape for approx 700x700 */
+    background: #f0f0f0; /* Placeholder background */
     border: 1px solid #ddd;
+}
+
+.terbaru-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px; /* Minimum height to prevent footer overlap during load */
+}
+
+@media (min-width: 769px) {
+    .terbaru-content {
+        flex-direction: row;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .terbaru-info {
+        flex: 1;
+    }
+
+    .terbaru-image {
+        flex: 1;
+        text-align: center;
+    }
+
+    .shakemap {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {

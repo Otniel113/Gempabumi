@@ -10,7 +10,8 @@ Data didapatkan dari [Data BMKG](https://data.bmkg.go.id/gempabumi/) yang memili
 Ada 3 data Gempabumi yang digunakan, yaitu gempa terbaru, riwayat 15 gempa dengan Magnitude 5.0+, dan riwayat 15 gempa yang dirasakan.
 
 ## Fitur
-Seperti yang sudah disebutkan sebelumnya, dalam website ini, menampilkan ketiga data tersebut dengan dipisah melalui tab pada website. Karena datanya diambil melalui JSON, maka akan selalu update langsung dari pihak BMKG. Dan juga tampilan website sudah ramah untuk pengguna mobile.
+- Seperti yang sudah disebutkan sebelumnya, dalam website ini, menampilkan ketiga data tersebut dengan dipisah melalui tab pada website. Karena datanya diambil melalui JSON, maka akan selalu update langsung dari pihak BMKG. Dan juga tampilan website sudah ramah untuk pengguna mobile.
+- Lebih lanjut juga ada fitur mengirimkan notifikasi gempa terkini ke Discord dan Telegram yang bisa dilihat di [repository ini](https://github.com/OtnielUB/GempabumiAuto)
 
 ## Link
 
